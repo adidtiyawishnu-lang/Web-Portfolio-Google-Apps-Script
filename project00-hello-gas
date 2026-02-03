@@ -1,0 +1,26 @@
+Review Google Apps Script Web App — Link:
+
+https://script.google.com/macros/s/AKfycbylAcbS2vrRtUjY6LuwqYihU7KxRjsRU2x07wahwN2ws8VhKA2HWtMePi5ZA9KmlMAO_A/exec
+
+🔍 Deskripsi singkat:
+Ini adalah link deployment dari sebuah Web App yang dibuat menggunakan Google Apps Script (GAS). URL seperti ini biasanya digunakan untuk menjalankan script sebagai aplikasi web, misalnya formulir, halaman interaktif, atau API kecil.
+
+📌 Apa yang dapat dilihat saat di-akses:
+Saat dibuka, link ini tidak menampilkan halaman HTML secara langsung — kemungkinan karena:
+
+Script belum menampilkan HTML melalui fungsi doGet()
+
+Aplikasi belum di-deploy dengan pengaturan siap tampil
+
+Atau perlu input/parameter untuk muncul konten lebih lanjut
+
+Akibatnya, halaman terlihat kosong ketika dibuka di browser.
+
+🚀 Potensi penggunaan link ini (kalau script lengkap):
+URL GAS seperti ini biasanya dipakai untuk:
+
+Menampilkan form atau dashboard web sederhana
+
+Mengirim data ke Google Sheets atau database
+
+Menjalankan logika backend tanpa perlu server sendiri
