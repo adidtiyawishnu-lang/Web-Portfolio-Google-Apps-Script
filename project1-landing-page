@@ -1,21 +1,57 @@
-# Personal Landing Page
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dev Portfolio | ADIDTIYA WISHNU WARDHANI</title>
 
-Landing page sederhana yang dibuat sebagai project pertama dalam web portfolio menggunakan Google Apps Script.
+  <?!= include('style'); ?>
 
-## Deskripsi
-Pada project ini, saya membuat halaman landing page dasar dan menambahkan identitas diri berupa **nama saya** serta **deskripsi singkat**. Informasi ini bertujuan agar pengunjung mengetahui pemilik halaman dan memahami tujuan dari website yang dibuat.
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
 
-Project ini menjadi langkah awal dalam membangun web portfolio dan akan dikembangkan lebih lanjut pada project-project berikutnya.
+<nav>
+  <div class="logo">./Dev<span>ADIDTIYA WISHNU WARDHANI</span></div>
+  <ul class="nav-links">
+    <li><a href="#skills">Skill</a></li>
+    <li><a href="#projects">Proyek</a></li>
+    <li><a href="https://github.com" target="_blank">GitHub</a></li>
+    <li><a href="#contact" class="btn-small">Hire Me</a></li>
+  </ul>
+</nav>
 
-## Tech Stack
-- Google Apps Script
-- HTML
-- CSS
+<header class="hero">
+  <div class="hero-text">
+    <span class="badge">Fresh Graduate S1 Informatika</span>
+    <h1>Membangun Solusi Digital dengan <span class="highlight">Kode yang Clean.</span></h1>
+    <p>
+      Halo! Saya <strong>ADIDTIYA WISHNU WARDHANI</strong>.<br>
+      Saya seorang pengembang web yang memadukan teori akademik dengan praktik nyata di setiap proyek yang saya kerjakan.<br><br>
 
-## Fitur
-- Menampilkan nama pemilik website
-- Menampilkan deskripsi singkat landing page
-- Web app dapat diakses secara online
+      Selain dunia teknologi, saya juga memiliki kecintaan besar terhadap musik.Musik adalah bagian dari cinta tanpa syarat dalam hidup saya—apa pun keadaannya, saya akan tetap bermusik.  
+      Bagi saya, musik bukan sekadar hobi, melainkan cara untuk mengekspresikan diri, merasakan kebebasan, dan tetap setia pada apa yang saya cintai.
+    </p>
+    <div class="cta">
+      <a href="#projects" class="btn-main">Lihat Project</a>
+      <a href="#" class="btn-outline">Unduh CV</a>
+    </div>
+  </div>
+</header>
 
-## Demo
-https://script.google.com/macros/s/AKfycbyBjMasO9vLFaD9NeQ1YMw2YbaUDiXvC1aqxyqjP0A3ypQyeRlWukuU3MyfyIlLG-x9wA/exec
+<section id="skills" class="skills">
+  <h3>Tech Stack Favorit</h3>
+  <div class="skill-grid">
+    <div class="skill-card">HTML / CSS</div>
+    <div class="skill-card">JavaScript</div>
+    <div class="skill-card">React.js</div>
+    <div class="skill-card">Tailwind</div>
+    <div class="skill-card">Node.js</div>
+    <div class="skill-card">MySQL</div>
+  </div>
+</section>
+
+<?!= include('script'); ?>
+
+</body>
+</html>
