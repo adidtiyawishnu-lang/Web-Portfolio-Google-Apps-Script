@@ -1,0 +1,21 @@
+# Personal Landing Page
+
+Landing page sederhana yang dibuat sebagai project pertama dalam web portfolio menggunakan Google Apps Script.
+
+## Deskripsi
+Pada project ini, saya membuat halaman landing page dasar dan menambahkan identitas diri berupa **nama saya** serta **deskripsi singkat**. Informasi ini bertujuan agar pengunjung mengetahui pemilik halaman dan memahami tujuan dari website yang dibuat.
+
+Project ini menjadi langkah awal dalam membangun web portfolio dan akan dikembangkan lebih lanjut pada project-project berikutnya.
+
+## Tech Stack
+- Google Apps Script
+- HTML
+- CSS
+
+## Fitur
+- Menampilkan nama pemilik website
+- Menampilkan deskripsi singkat landing page
+- Web app dapat diakses secara online
+
+## Demo
+https://script.google.com/macros/s/AKfycbyBjMasO9vLFaD9NeQ1YMw2YbaUDiXvC1aqxyqjP0A3ypQyeRlWukuU3MyfyIlLG-x9wA/exec
